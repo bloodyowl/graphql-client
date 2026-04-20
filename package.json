@@ -40,7 +40,7 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "build": "tsup && tsc -p tsconfig.build.json --emitDeclarationOnly",
-    "prepack": "yarn typecheck && yarn test && yarn build",
+    "prepack": "bun typecheck && bun test && bun run build",
     "codegen": "graphql-codegen --config codegen.ts"
   },
   "prettier": {
