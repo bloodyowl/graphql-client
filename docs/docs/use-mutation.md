@@ -29,7 +29,7 @@ const [commitMutation, mutationData] = useMutation(...)
 ## Example
 
 ```ts
-import { useMutation } from "@swan-io/graphql-client";
+import { useMutation } from "@bloodyowl/graphql-client";
 // ...
 
 const updateUsernameMutation = graphql(`

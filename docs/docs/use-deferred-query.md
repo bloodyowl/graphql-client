@@ -29,7 +29,7 @@ const [data, query] = useDeferredQuery(...)
 ## Example
 
 ```ts
-import { useDeferredQuery } from "@swan-io/graphql-client";
+import { useDeferredQuery } from "@bloodyowl/graphql-client";
 // ...
 
 const userPageQuery = graphql(`

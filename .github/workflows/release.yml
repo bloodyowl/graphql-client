@@ -15,19 +15,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: actions/setup-node@v3
-        with:
-          node-version: lts/*
-          cache: yarn
+      - uses: oven-sh/setup-bun@v2
 
-      - run: yarn install --pure-lockfile
-      - run: yarn typecheck
-      - run: yarn test
-      - run: yarn build
+      - run: bun install --frozen-lockfile
+      - run: bun typecheck
+      - run: bun test
+      - run: bun run build
 
       - name: Publish
         run: |
-          echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
-          yarn publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          bun publish

@@ -13,16 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 20
-          cache: yarn
+      - uses: oven-sh/setup-bun@v2
 
-      - run: yarn install --pure-lockfile
-      - run: yarn prepack
+      - run: bun install --frozen-lockfile
+      - run: bun prepack
 
       - name: Build docs
-        run: cd docs && yarn && yarn build
+        run: cd docs && bun install && bun run build
 
       - name: Deploy
         if: "contains('refs/heads/main', github.ref)"

@@ -6,7 +6,7 @@
 
 import { themes as prismThemes } from "prism-react-renderer";
 
-const url = "https://swan-io.github.io/graphql-client";
+const url = "https://bloodyowl.github.io/graphql-client";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -15,14 +15,14 @@ const config = {
   favicon: "img/favicon.png",
 
   // Set the production url of your site here
-  url: "https://swan-io.github.io",
+  url: "https://bloodyowl.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/graphql-client/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "swan-io", // Usually your GitHub org/user name.
+  organizationName: "bloodyowl", // Usually your GitHub org/user name.
   projectName: "graphql-client", // Usually your repo name.
 
   onBrokenLinks: "throw",
@@ -46,7 +46,8 @@ const config = {
           sidebarPath: "./sidebars.js",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/swan-io/graphql-client/edit/main/docs/",
+          editUrl:
+            "https://github.com/bloodyowl/graphql-client/edit/main/docs/",
         },
         theme: {
           customCss: "./src/css/custom.css",
@@ -71,22 +72,15 @@ const config = {
             position: "left",
           },
           {
-            href: "https://github.com/swan-io/graphql-client",
+            href: "https://github.com/bloodyowl/graphql-client",
             label: "GitHub",
             position: "right",
           },
         ],
       },
       footer: {
-        logo: {
-          alt: "Swan Open Source",
-          src: "img/swan-opensource.svg",
-          href: "https://swan.io",
-          width: 116,
-          height: 43,
-        },
         style: "dark",
-        copyright: `Copyright © ${new Date().getFullYear()} Swan`,
+        copyright: `Copyright © ${new Date().getFullYear()} Matthias Le Brun`,
       },
       metadata: [
         { name: "twitter:card", content: "summary_large_image" },

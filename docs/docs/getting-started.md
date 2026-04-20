@@ -10,13 +10,13 @@ sidebar_label: Getting started
 ## 1. Install
 
 ```console
-$ yarn add @swan-io/graphql-client
+$ yarn add @bloodyowl/graphql-client
 ```
 
 or
 
 ```console
-$ npm install @swan-io/graphql-client
+$ npm install @bloodyowl/graphql-client
 ```
 
 ## 2. Generate the schema config
@@ -32,7 +32,7 @@ $ generate-schema-config path/to/schema.gql dist/schema-config.json
 Configure your client with your `url`, desired default `headers` & the `schemaConfig` you just generateed.
 
 ```ts title="src/index.tsx"
-import { Client, ClientContext } from "@swan-io/graphql-client";
+import { Client, ClientContext } from "@bloodyowl/graphql-client";
 import { App } from "./App";
 import { createRoot } from "react-dom/client";
 import schemaConfig from "./dist/schema-config.json"

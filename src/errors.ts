@@ -4,7 +4,7 @@ import {
   EmptyResponseError,
   NetworkError,
   TimeoutError,
-} from "@swan-io/request";
+} from "@bloodyowl/request";
 
 export type ClientError =
   | NetworkError

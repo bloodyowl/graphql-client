@@ -1,4 +1,4 @@
-import { Option } from "@swan-io/boxed";
+import { Option } from "@bloodyowl/boxed";
 
 const OPERATION_TYPES = new Set(["Query", "Mutation", "Subscription"]);
 

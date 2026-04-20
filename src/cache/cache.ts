@@ -1,5 +1,5 @@
 import { DocumentNode } from "@0no-co/graphql.web";
-import { Array, Option, Result } from "@swan-io/boxed";
+import { Array, Option, Result } from "@bloodyowl/boxed";
 import { getCacheEntryKey } from "../json/cacheEntryKey";
 import { Connection, Edge } from "../types";
 import {

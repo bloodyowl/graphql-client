@@ -1,5 +1,5 @@
-import { Option, Result } from "@swan-io/boxed";
-import { expect, test } from "vitest";
+import { Option, Result } from "@bloodyowl/boxed";
+import { expect, test } from "bun:test";
 import { Connection } from "../src";
 import { ClientCache } from "../src/cache/cache";
 import { optimizeQuery, readOperationFromCache } from "../src/cache/read";

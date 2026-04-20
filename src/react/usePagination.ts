@@ -1,4 +1,4 @@
-import { Array, AsyncData, Option, Result } from "@swan-io/boxed";
+import { Array, AsyncData, Option, Result } from "@bloodyowl/boxed";
 import { useCallback, useContext, useRef, useSyncExternalStore } from "react";
 import { Connection } from "../types";
 import { CONNECTION_REF, deepEqual } from "../utils";

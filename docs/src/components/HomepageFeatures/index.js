@@ -23,8 +23,8 @@ const FeatureList = [
       <>
         GraphQL client is super <strong>easy to use</strong>, with a{" "}
         <strong>small API surface</strong> and safe data-structures from our{" "}
-        <a href="https://swan-io.github.io/boxed/">Boxed</a> library (
-        <code>AsyncData</code>, <code>Result</code>, <code>Future</code>).
+        <a href="https://boxed.cool/">Boxed</a> library (<code>AsyncData</code>,{" "}
+        <code>Result</code>, <code>Future</code>).
       </>
     ),
   },

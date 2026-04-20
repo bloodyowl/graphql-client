@@ -1,6 +1,6 @@
 import { DocumentNode } from "@0no-co/graphql.web";
-import { Future, Option, Result } from "@swan-io/boxed";
-import { Request, badStatusToError, emptyToError } from "@swan-io/request";
+import { Future, Option, Result } from "@bloodyowl/boxed";
+import { Request, badStatusToError, emptyToError } from "@bloodyowl/request";
 import { ClientCache, SchemaConfig } from "./cache/cache";
 import { optimizeQuery, readOperationFromCache } from "./cache/read";
 import { writeOperationToCache } from "./cache/write";

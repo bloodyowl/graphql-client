@@ -8,8 +8,8 @@ sidebar_label: useQuery
 The `useQuery` hook will execute the query with the given `variables`.
 
 ```ts
-import { AsyncData, Result } from "@swan-io/boxed";
-import { useQuery } from "@swan-io/graphql-client";
+import { AsyncData, Result } from "@bloodyowl/boxed";
+import { useQuery } from "@bloodyowl/graphql-client";
 import { match, P } from "ts-pattern";
 
 const query = gql(`
@@ -31,7 +31,7 @@ const MyComponent = () => {
 }
 ```
 
-`data` is exposed as an [`AsyncData`](https://swan-io.github.io/boxed/async-data) (to represent the loading date), that contains a [`Result`](https://swan-io.github.io/boxed/result) (to represent the success of the operation), which is either `Ok<Data>` or `Error<ClientError>`.
+`data` is exposed as an [`AsyncData`](https://bloodyowl.github.io/boxed/async-data) (to represent the loading date), that contains a [`Result`](https://bloodyowl.github.io/boxed/result) (to represent the success of the operation), which is either `Ok<Data>` or `Error<ClientError>`.
 
 This structure avoids any ambuguity as to what the current state of the data is.
 
@@ -69,7 +69,7 @@ You can optionally provide a `suspense` flag to activate the feature, but the ex
 ## Example
 
 ```ts
-import { useQuery } from "@swan-io/graphql-client";
+import { useQuery } from "@bloodyowl/graphql-client";
 // ...
 
 const userPageQuery = graphql(`

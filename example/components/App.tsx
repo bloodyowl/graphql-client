@@ -1,4 +1,4 @@
-import { Option } from "@swan-io/boxed";
+import { Option } from "@bloodyowl/boxed";
 import { useState } from "react";
 import { useQuery } from "../../src";
 import { graphql } from "../gql";

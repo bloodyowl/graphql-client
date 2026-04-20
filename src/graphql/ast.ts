@@ -13,7 +13,7 @@ import {
   ValueNode,
   visit,
 } from "@0no-co/graphql.web";
-import { Array, Option } from "@swan-io/boxed";
+import { Array, Option } from "@bloodyowl/boxed";
 
 /**
  * Returns a Set<string> with all keys selected within the direct selection sets

@@ -1,4 +1,4 @@
-import { Option } from "@swan-io/boxed";
+import { Option } from "@bloodyowl/boxed";
 import { useForwardPagination } from "../../src";
 import { FragmentType, graphql, useFragment } from "../gql";
 import { Film } from "./Film";

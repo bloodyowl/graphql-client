@@ -1,4 +1,4 @@
-import { AsyncData, Deferred, Future, Option, Result } from "@swan-io/boxed";
+import { AsyncData, Deferred, Future, Option, Result } from "@bloodyowl/boxed";
 import {
   useCallback,
   useContext,
