@@ -824,9 +824,9 @@ Set {
 `;
 
 exports[`Write & read in cache 7`] = `
-t {
+__Option {
   "tag": "Some",
-  "value": t {
+  "value": __Result {
     "tag": "Ok",
     "value": {
       "__typename": "Query",
