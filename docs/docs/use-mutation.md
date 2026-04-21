@@ -20,7 +20,6 @@ const [commitMutation, mutationData] = useMutation(...)
 ```
 
 - `commitMutation(variables, ?config)`: function commit the mutation, returns a `Future<Result<Data, ClientError>>`
-
   - `config` (optional)
     - `overrides`: custom request configuration (`url`, `headers` and/or `withCredentials`)
 

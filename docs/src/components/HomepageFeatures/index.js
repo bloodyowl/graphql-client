@@ -48,8 +48,8 @@ const FeatureList = [
     description: (
       <>
         With a <strong>normalized cache</strong> out of the box, your
-        application feels <strong>⚡️ blazing fast ⚡️</strong> and updates the
-        UI automatically when recent data is fetched.
+        application feels <strong>⚡️ blazing fast ⚡️</strong> and updates the UI
+        automatically when recent data is fetched.
       </>
     ),
   },

@@ -18,8 +18,8 @@ export interface TypedDocumentNode<
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     [key: string]: any;
   },
-> extends DocumentNode,
-    DocumentTypeDecoration<TResult, TVariables> {}
+>
+  extends DocumentNode, DocumentTypeDecoration<TResult, TVariables> {}
 
 export type Edge<T> = {
   __typename?: string | null | undefined;
