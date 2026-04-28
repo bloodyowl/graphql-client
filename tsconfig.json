@@ -5,7 +5,6 @@
     "target": "ES2019",
     "lib": ["DOM", "DOM.Iterable", "ES2019"],
     "jsx": "react-jsx",
-    "moduleResolution": "Node",
     "outDir": "dist/",
     "types": ["bun"],
 
